@@ -22,16 +22,17 @@ go cmdb_agent -start -config="config.ymal"
 几种采集架构设计方案和选择：
 ***************************
 一、Agent （PUSH）
-                              (资源比对)
+
+
                   cmdb采集模块----------cmdb资源模块
                         |
             cron------metric----resource
                         |
           ip1（http）------ip2(http)
             ||
-    config------上报json（时间戳）
+       config------上报json（时间戳）
         |
-heartbeat --- 采集项 --- cron
+    heartbeat --采集项 --- cron
 
 设计说明：
 1、定时任务： 自定义、算法生成时间
