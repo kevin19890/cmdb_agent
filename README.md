@@ -1,16 +1,16 @@
-# cmdb_agent
-cmdb  客户端Agent  采集信息agent
+ # cmdb_agent
+ cmdb  客户端Agent  采集信息agent
 
-#cmdb_agent
-Golang版本：go1.16.3
+ #cmdb_agent
+ Golang版本：go1.16.3
 
-Agent功能：
-1、轻量采集主机基础信息：cpu 、内存 、disk 、ip...
-2、支持扩展自定义命令返回执行命令结果信息
-3、支持配置http 推送采集结果
-4、支持远程控制Agent start、restart、stop
-5、支持远程控制生成Agent配置文件
-6、支持邮件告警，以及扩展你的IM、短信告警渠道
+ Agent功能：
+ 1、轻量采集主机基础信息：cpu 、内存 、disk 、ip...
+ 2、支持扩展自定义命令返回执行命令结果信息
+ 3、支持配置http 推送采集结果
+ 4、支持远程控制Agent start、restart、stop
+ 5、支持远程控制生成Agent配置文件
+ 6、支持邮件告警，以及扩展你的IM、短信告警渠道
 
 
 打包、启动：
